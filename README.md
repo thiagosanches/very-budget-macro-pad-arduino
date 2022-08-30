@@ -6,5 +6,15 @@ As a suggestion you can use [this](https://www.tinkercad.com/things/6qNC2uKGQGF-
 
 ![image](https://user-images.githubusercontent.com/5191469/187534022-dfacf4e5-2ab8-426b-b353-e1b3c588e294.png)
 
-## The code.
+## The code
 You can deploy [this](./very-budget-macro-pad.ino) code into your Arduino Pro Micro board through Arduino IDE.
+
+## The schematics
+Put a photo here.
+
+## References
+- https://create.arduino.cc/projecthub/SURYATEJA/push-button-switch-module-with-arduino-706670
+- https://create.arduino.cc/projecthub/Arnov_Sharma_makes/hid-volume-knob-with-pro-micro-db0bf8
+- https://www.arduinoecia.com.br/como-usar-encoder-rotativo-ky-040-arduino/
+- https://www.hackster.io/Sourcery/rotary-encoder-as-a-multimedia-controller-0d69f6
+

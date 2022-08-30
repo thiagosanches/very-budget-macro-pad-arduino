@@ -25,13 +25,11 @@ void setup() {
 
 void loop() {
   if (digitalRead(pinButton1) == HIGH) {
-    Serial.println("pinButton1");
     Consumer.write(MEDIA_NEXT);
     delay(500);
   }
   
   if (digitalRead(pinButton2) == HIGH) {
-    Serial.println("pinButton2");
     Consumer.write(MEDIA_PLAY_PAUSE);
     delay(500);
   }

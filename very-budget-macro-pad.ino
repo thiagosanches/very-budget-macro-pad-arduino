@@ -27,10 +27,13 @@ void loop() {
   if (digitalRead(pinButton1) == HIGH) {
     Serial.println("pinButton1");
     Consumer.write(MEDIA_NEXT);
+    delay(500);
   }
-  else if (digitalRead(pinButton2) == HIGH) {
+  
+  if (digitalRead(pinButton2) == HIGH) {
     Serial.println("pinButton2");
     Consumer.write(MEDIA_PLAY_PAUSE);
+    delay(500);
   }
 
   n = digitalRead(encoder0PinA);

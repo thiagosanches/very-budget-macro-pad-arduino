@@ -29,7 +29,7 @@ void loop() {
     delay(500);
   }
 
- if (digitalRead(pinButton2) == HIGH) {
+  if (digitalRead(pinButton2) == HIGH) {
     Consumer.write(MEDIA_PLAY_PAUSE);
     delay(500);
   }

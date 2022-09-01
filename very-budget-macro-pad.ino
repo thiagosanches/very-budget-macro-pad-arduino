@@ -1,10 +1,10 @@
 #include <HID-Project.h>
 #include <HID-Settings.h>
 
-const int encoder0PinA = 3;
-const int encoder0PinB = 8;
-const int pinButton1 = 5;
-const int pinButton2 = 7;
+const int encoder0PinA = 8;
+const int encoder0PinB = 3;
+const int pinButton1 = 7;
+const int pinButton2 = 5;
 
 int val;
 int encoder0Pos = 0;
@@ -25,13 +25,11 @@ void setup() {
 
 void loop() {
   if (digitalRead(pinButton1) == HIGH) {
-    Serial.println("Button 1");
     Consumer.write(MEDIA_NEXT);
     delay(500);
   }
-  
-  if (digitalRead(pinButton2) == HIGH) {
-    Serial.println("Button 2");
+
+ if (digitalRead(pinButton2) == HIGH) {
     Consumer.write(MEDIA_PLAY_PAUSE);
     delay(500);
   }

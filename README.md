@@ -4,7 +4,8 @@ This project uses an Arduino Pro Micro and its feature as a HID (Human Interface
 ## 3d model
 As a suggestion you can use [this](https://www.tinkercad.com/things/6qNC2uKGQGF-mini-macro-pad-arduino-pro-micro-rotary-encoder) model to fit the board and its components.
 
-![image](https://user-images.githubusercontent.com/5191469/187534022-dfacf4e5-2ab8-426b-b353-e1b3c588e294.png)
+![image](https://user-images.githubusercontent.com/5191469/188749890-dc4b6d4a-a87a-4c40-b932-a98470fd1760.png)
+
 
 ## The code
 You can deploy [this](./very-budget-macro-pad.ino) code into your Arduino Pro Micro board through Arduino IDE.
